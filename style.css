@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.custom-line {
+  border-top: 2px solid #cccc;
+  margin: 10px 0;
+}
+body{
+  overflow-x: hidden;
+}
+.search {
+  width: 110px; 
+  border-radius: 70px;
+  border: 1px solid #cccc;
+  height: 40px;
+
+}
+
+.alex:hover{
+  transform: translateY(-30px);
+  box-shadow: rgba(9, 37, 64, 0.08) 0px 16px 32px 0px rgba(9, 37, 64, 0.12) 0px 24px 40px 0px ;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.king{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+  padding-bottom: 20px;
+}
+.imag{
+  position: relative;
+}
+.act{
+  position: absolute;
+  left: 550px;
+  top: 90px;
+  font-size: 20px;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  color: black;
+}
